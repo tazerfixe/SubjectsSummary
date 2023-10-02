@@ -1,0 +1,47 @@
+body{
+
+    background-color: beige;
+
+}
+
+header{
+
+    background-color: rgb(78, 112, 78);
+
+    background-image: url(../images/MonumentoGrego.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0px -400px;
+    background-attachment: fixed;
+}
+header h1{
+
+    background-color: white;
+
+}
+
+
+.themeslist ul h1{
+    
+    background-color: rgb(230, 230, 211);
+}
+.themeslist ul h1:hover{
+    background-color: rgb(206, 206, 187);
+}
+.themeslist li{
+    background-color: mintcream;
+}
+.themeslist li:hover{
+    background-color: rgb(205, 214, 210);
+}
+
+.textportion{
+    
+    background-color: rgb(220, 220, 189);
+}
+
+
+footer{
+
+    background-color: lightblue;
+}

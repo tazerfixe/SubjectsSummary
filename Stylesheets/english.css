@@ -1,0 +1,38 @@
+body{
+
+    background-color: rgb(74, 74, 247);
+
+}
+
+header{
+
+    background-color: rgb(78, 112, 78);
+
+    background-image: url(../images/MonumentoGrego.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0px -400px;
+    background-attachment: fixed;
+
+}
+header h1{
+
+    background-color: white;
+
+}
+
+main{
+
+
+}
+
+footer{
+
+    background-color: red;
+
+
+}
+footer h5{
+
+
+}

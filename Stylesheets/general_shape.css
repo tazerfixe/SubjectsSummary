@@ -1,8 +1,12 @@
+html{
+   
+}
+
+
 body{
     margin: 0px;
     width: 100vw;
     height: 100vh;
-    overflow-x: hidden;
     
 }
 
@@ -22,6 +26,7 @@ header h1{
     font-size: 50px;
     border: 3px solid;
     padding: 10px;
+    text-align: center;
 }
 
 
@@ -97,6 +102,7 @@ main{
     justify-content: center;
     align-items: center;
     justify-content: space-evenly;
+    flex-wrap: wrap;
     width: 100%;
     margin-bottom: 20px;
 
@@ -131,6 +137,42 @@ main{
     border-radius: 15px;
 }
 
+.listportion h3{
+
+    font-weight: bold;
+    font-size: 30px;
+    text-indent: 5px;
+    margin-bottom: 20px;
+    margin-top: 0px;
+}
+.listportion li{
+
+    
+    font-size: 30px;
+    text-indent: 5px;
+    margin-bottom: 20px;
+    margin-top: 0px;
+}
+
+.logicportion{
+    
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+.logicportion .describedlogic{
+    display: flex;
+    justify-content: center;
+}
+.logicportion .describedlogic div{
+    display: inline-block;
+    border: 3px solid skyblue;
+    padding: 20px;
+}
+.logicportion .describedlogic div p{
+   margin-bottom: 5px;
+}
+
 
 footer{
     height: 100px;
@@ -147,4 +189,47 @@ footer h5{
     margin-top: 5px;
     margin-bottom: 0px;
 
+}
+
+@media screen and (max-width: 660px){
+    
+    
+    .imageportion img{
+    
+        max-height: 300px;
+        max-width: 300px;
+        min-height: 300px;
+        min-width: 300px;
+    }
+
+    .textportion h1{
+        font-size: 40px;
+    }
+    .textportion h2{
+        font-size: 30px;
+    }
+    .textportion p{
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 380px){
+
+    .imageportion img{
+    
+        max-height: 250px;
+        max-width: 250px;
+        min-height: 250px;
+        min-width: 250px;
+    }
+
+    .textportion h1{
+        font-size: 25px;
+    }
+    .textportion h2{
+        font-size: 20px;
+    }
+    .textportion p{
+        font-size: 15px;
+    }
 }

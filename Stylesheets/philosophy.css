@@ -37,3 +37,20 @@ header h1{
 footer{ 
     background-color: rgb(247, 247, 168);
 }
+
+
+@media screen and (max-width: 600px){
+
+    
+    header{
+        background-position: 0px 0px;
+    }
+}
+
+@media screen and (max-width: 400px){
+
+    
+    header{
+        background-position: 0px -200px;
+    }
+}

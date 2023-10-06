@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Filosofia do Conhecimento</title>
-    <link rel="icon" href="../../../images/AveDeAtenas.png">
+    <title>Áreas e Volumes</title>
+    <link rel="icon" href="../../../images/IconMatemática.png">
     <link rel="stylesheet" href="../../../Stylesheets/philosophy.css">
     <link rel="stylesheet" href="../../../Stylesheets/utilities.css">
     <link rel="stylesheet" href="../../../Stylesheets/general_shape.css">
@@ -12,13 +12,13 @@
 <body>
     
     <header>
-        <h1>Filosofia do Conhecimento</h1>
+        <h1>Áreas e Volumes</h1>
     </header>
 
     <nav class="navbar">
         <ul>
             <li><a id= "navbarElement" href="../../../index.html">Home</a></li>
-            <li><a id= "navbarElement" href="../philosophy.html">Voltar</a></li>
+            <li><a id= "navbarElement" href="../maths.html">Voltar</a></li>
             <li>
                 <div class="dropdown">
                     <h2 id="navbarElement">Disciplinas</h2>
@@ -38,14 +38,8 @@
                     <h2 id="navbarElement">Conceitos</h2>
                     <div class="dropdowncontent">
                         
-                        <a href="#epistemologia">Epistemologia</a>
-                        <a href="#conhecimento">Conhecimento</a>
-                        <a href="#atitudeproposicional">Atitude Proposicional</a>
-                        <a href="#crença">Crença</a>
-                        <a href="#verdade">Verdade</a>
-                        <a href="#justificação">Justificação</a>
-                        <a href="#conclusão">Conclusão</a>
-                        <a href="#desafiocético">Desafio Cético</a>
+                        <a href="#referencialplano">Referencial Cartesiano no Plano</a>
+                        <a href="#distanciapontosplano">Distância entre dois Pontos no Plano</a>
 
                     </div>
                 </div>
@@ -56,28 +50,72 @@
 
     <main>
         <div class="textportion">
-            <a id="epistemologia"></a>
-            <h1>Epistemologia/Gnosiologia</h1>
-            <p>É a teoria do conhecimento, estudando pois o tema do conhecimento.</p>
-            <p>Procura responder, entre outros, ao problema da origem do conhecimento, da sua possibilidade e do seu fundamento.</p>
+            <a id="referencialplano"></a>
+            <h1>Referencial Cartesiano no Plano</h1>
+            <p>Num referencial cartesiano, os eixos das <b>abcissas</b> e das <b>ordenadas</b> são designados <b>Ox</b> e <b>Oy</b>, 
+                respetivamente.</p>
+            <p>O ponto de interceção destes dois eixos é a <b>origem do referencial</b>.</p>
+
+            <div class="imageportion">
+
+                <img src="Images/referencialplano.png">
+
+            </div>
+
+            <p>Um <b>referencial ortonormado</b>, divide o plano em quatro quadrantes(Q): o 1ºQ, o 2ºQ, o 3ºQ e o 4ºQ.</p>
+
+            <div class="imageportion">
+
+                <img src="Images/referencialquadrantes.png">
+
+            </div>
+
+            <p>Qualquer ponto do eixo Ox tem coordenadas da forma (x , 0).</p>       
+            <p>Qualquer ponto do eixo Oy tem coordenadas da forma (0 , y).</p>     
+            <p>A origem do referencial tem de coordenadas (0 , 0).</p>  
+            
+            <h2>Simetrias</h2>
+            
+            <div class="listportion">
+
+                <h3>Dado o ponto P(x , y), tem-se:</h3>
+                <ul>
+                    <li>P'(x , -y) é simétrico de P em relação a Ox.</li>
+                    <li>P''(-x , y) é simétrico de P em relação a Oy.</li>
+                    <li>P'''(-x , -y) é simétrico de P em relação à origem do referencial.</li>
+                </ul>
+
+            </div>
             </a>
         </div>
 
         <div class="textportion">
-            <a id="conhecimento"></a>
-            <h1>Conhecimento</h1>
+            <a id="distanciapontosplano"></a>
+            <h1>Distância entre dois Pontos no Plano</h1>
 
-            <p>É uma relação que se verifica entre um sujeito, que conhece, e um objeto, que é conhecido.</p>
-            <p>No ato de conhecer, um sujeito apreende um objeto, podendo o sujeito e o objeto coincidirem
-                , por exemplo, quando uma pessoa se conhece a si própria.</p>
+            <p>Caso pertençam à mesma reta horizontal, para A(a<sub>1</sub> , a<sub>2</sub>) e B(b<sub>1</sub> , 
+                b<sub>2</sub>), a<sub>2</sub> = b<sub>2</sub>:</p>
 
-            <h2>Tipos de Conhecimento</h2>
+            <div class="formulaportion">
 
-            <p>Existem três tipos de conhecimento:</p>
-            <p><b>Conhecimento por Contacto:</b> É o conhecimento direto de uma realidade ou objeto
-                , sendo obtido pelo contacto direto com essa realidade ou objeto.</p>
-            <p><b>Conhecimento Proposicional:</b> Tem por base proposições verdadeiras, por exemplo: "O céu é azul", ou "Alpiarça é uma localidade".</p>
-            <p><b>Conhecimento Prático:</b> Implica o saber por aptidão/saber fazer.</p>
+                <p><span style="text-decoration: overline;">AB</span> = |a<sub>1</sub> - b<sub>1</sub>| &or; |b<sub>1</sub> - a<sub>1</sub>|</p>
+            </div>
+
+            <p>Caso pertençam à mesma reta vertical, para A(a<sub>1</sub> , a<sub>2</sub>) e B(b<sub>1</sub> , 
+                b<sub>2</sub>), a<sub>1</sub> = b<sub>1</sub>:</p>
+
+            <div class="formulaportion">
+
+                <p><span style="text-decoration: overline;">AB</span> = |a<sub>2</sub> - b<sub>2</sub>| &or; |b<sub>2</sub> - a<sub>2</sub>|</p>
+            </div>
+
+            <p>Caso não tenham nenhum eixo em comum, para A(a<sub>1</sub> , a<sub>2</sub>) e B(b<sub>1</sub> , 
+                b<sub>2</sub>)>:</p>
+
+            <div class="formulaportion">
+
+                <p><span style="text-decoration: overline;">AB</span> = &radic;((|a<sub>1</sub> - b<sub>1</sub>|)<sup>2</sup> + (|b<sub>2</sub> - a<sub>2</sub>|)<sup>2</sup>)</p>
+            </div>
             </a>
         </div>
 

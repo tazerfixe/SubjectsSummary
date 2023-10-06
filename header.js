@@ -1,6 +1,5 @@
 
 let fix = document.querySelector(".navbar").offsetTop;
-console.log(fix);
 
 export function fixHeader(){
 

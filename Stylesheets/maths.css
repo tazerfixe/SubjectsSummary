@@ -21,10 +21,26 @@ header h1{
 
 }
 
-main{
 
-
+.themeslist ul h1{
+    
+    background-color: darkcyan;
 }
+.themeslist ul h1:hover{
+    background-color: rgb(206, 206, 187);
+}
+.themeslist li{
+    background-color: mintcream;
+}
+.themeslist li:hover{
+    background-color: rgb(205, 214, 210);
+}
+
+.textportion{
+    
+    background-color: rgb(220, 220, 189);
+}
+
 
 footer{
 
@@ -32,7 +48,20 @@ footer{
 
 
 }
-footer h5{
 
 
+@media screen and (max-width: 600px){
+
+    
+    header{
+        background-position: 0px 0px;
+    }
+}
+
+@media screen and (max-width: 400px){
+
+    
+    header{
+        background-position: 0px -200px;
+    }
 }

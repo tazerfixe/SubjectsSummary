@@ -1,5 +1,5 @@
 .navbar{
-    
+    width: 100%;
 }
 .navbar ul{
     overflow: hidden;
@@ -55,7 +55,7 @@
     text-decoration: none;
     color: black;
     display: block;
-    min-width: 160px;
+    min-width: 215px;
     
     
 }
@@ -64,7 +64,7 @@
     box-shadow: 2px 2px 5px black;
     display: none;
     z-index: 1;
-    min-width: 160px;
+    
     
 
     

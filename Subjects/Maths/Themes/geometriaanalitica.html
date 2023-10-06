@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Geometria Analítica</title>
+    <link rel="icon" href="../../../images/IconMatemática.png">
+    <link rel="stylesheet" href="../../../Stylesheets/philosophy.css">
+    <link rel="stylesheet" href="../../../Stylesheets/utilities.css">
+    <link rel="stylesheet" href="../../../Stylesheets/general_shape.css">
+</head>
+<body>
+    
+    <header>
+        <h1>Geometria Analítica</h1>
+    </header>
+
+    <nav class="navbar">
+        <ul>
+            <li><a id= "navbarElement" href="../../../index.html">Home</a></li>
+            <li><a id= "navbarElement" href="../maths.html">Voltar</a></li>
+            <li>
+                <div class="dropdown">
+                    <h2 id="navbarElement">Disciplinas</h2>
+                    <div class="dropdowncontent">
+                        <a href="../../Biology/biology.html">Biologia</a>
+                        <a href="../../Philosophy/philosophy.html">Filosofia</a>
+                        <a href="../../Physics/physics.html">Física e Química</a>
+                        <a href="../../English/english.html">Inglês</a>
+                        <a href="../../Maths/maths.html">Matemática</a>
+                        <a href="../../Portuguese/portuguese.html">Português</a>
+
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="dropdown">
+                    <h2 id="navbarElement">Conceitos</h2>
+                    <div class="dropdowncontent">
+                        
+                        <a href="#referencialplano">Referencial Cartesiano no Plano</a>
+                        <a href="#distanciapontosplano">Distância entre dois Pontos no Plano</a>
+                        <a href="#pontomedioplano">Ponto Médio no Plano</a>
+                        <a href="#mediatrizplano">Mediatriz no Plano</a>
+                        <a href="#circunferenciaplano">Equação da Circunferência no Plano</a>
+                        <a href="#circuloplano">Inequação do Círculo no Plano</a>
+                        <a href="#semiplano">Inequação de um Semi-Plano</a>
+                        <a href="#vetorialplano">Cálculo Vetorial no Plano</a>
+
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </nav>
+    
+
+    <main>
+        <div class="textportion">
+            <a id="referencialplano"></a>
+            <h1>Referencial Cartesiano no Plano</h1>
+            <p>Num referencial cartesiano, os eixos das <b>abcissas</b> e das <b>ordenadas</b> são designados <b>Ox</b> e <b>Oy</b>, 
+                respetivamente.</p>
+            <p>O ponto de interceção destes dois eixos é a <b>origem do referencial</b>.</p>
+
+            <div class="imageportion">
+
+                <img src="Images/referencialplano.png">
+
+            </div>
+
+            <p>Um <b>referencial ortonormado</b>, divide o plano em quatro quadrantes(Q): o 1ºQ, o 2ºQ, o 3ºQ e o 4ºQ.</p>
+
+            <div class="imageportion">
+
+                <img src="Images/referencialquadrantes.png">
+
+            </div>
+
+            <p>Qualquer ponto do eixo Ox tem coordenadas da forma (x , 0).</p>       
+            <p>Qualquer ponto do eixo Oy tem coordenadas da forma (0 , y).</p>     
+            <p>A origem do referencial tem de coordenadas (0 , 0).</p>  
+            
+            <h2>Simetrias</h2>
+            
+            <div class="listportion">
+
+                <h3>Dado o ponto P(x , y), tem-se:</h3>
+                <ul>
+                    <li>P'(x , -y) é simétrico de P em relação a Ox.</li>
+                    <li>P''(-x , y) é simétrico de P em relação a Oy.</li>
+                    <li>P'''(-x , -y) é simétrico de P em relação à origem do referencial.</li>
+                </ul>
+
+            </div>
+            </a>
+        </div>
+
+        <div class="textportion">
+            <a id="distanciapontosplano"></a>
+            <h1>Distância entre dois Pontos no Plano</h1>
+
+            <p>Caso pertençam à mesma reta horizontal, para A(a<sub>1</sub> , a<sub>2</sub>) e B(b<sub>1</sub> , 
+                b<sub>2</sub>), a<sub>2</sub> = b<sub>2</sub>:</p>
+
+            <div class="formulaportion">
+
+                <p><span style="text-decoration: overline;">AB</span> = |a<sub>1</sub> - b<sub>1</sub>| &or; |b<sub>1</sub> - a<sub>1</sub>|</p>
+            </div>
+
+            <p>Caso pertençam à mesma reta vertical, para A(a<sub>1</sub> , a<sub>2</sub>) e B(b<sub>1</sub> , 
+                b<sub>2</sub>), a<sub>1</sub> = b<sub>1</sub>:</p>
+
+            <div class="formulaportion">
+
+                <p><span style="text-decoration: overline;">AB</span> = |a<sub>2</sub> - b<sub>2</sub>| &or; |b<sub>2</sub> - a<sub>2</sub>|</p>
+            </div>
+
+            <p>Caso não tenham nenhum eixo em comum, para A(a<sub>1</sub> , a<sub>2</sub>) e B(b<sub>1</sub> , 
+                b<sub>2</sub>)>:</p>
+
+            <div class="formulaportion">
+
+                <p><span style="text-decoration: overline;">AB</span> = &radic;((|a<sub>1</sub> - b<sub>1</sub>|)<sup>2</sup> + (|b<sub>2</sub> - a<sub>2</sub>|)<sup>2</sup>)</p>
+            </div>
+            </a>
+        </div>
+
+        <div class="textportion">
+            <a id="pontomedioplano"></a>
+            <h1>Ponto Médio no Plano</h1>
+            <p>No plano, o ponto médio de um segmento de reta é aquele no meio do segmento de reta formado por outros dois pontos.</p>
+            <p>Dados dois pontos, A(a<sub>1</sub> , a<sub>2</sub>) e B(b<sub>1</sub> , b<sub>2</sub>), 
+                o ponto médio do segmento de reta [AB] tem de coordenadas:</p>
+
+            <div class="formulaportion">
+
+                <p>M((a<sub>1</sub> + b<sub>1</sub>) &divide; 2 , (a<sub>2</sub> + b<sub>2</sub>) &divide; 2)</p>
+
+            </div>
+            </a>
+        </div>
+
+        <div class="textportion">
+            <a id="mediatrizplano"></a>
+            <h1>Mediatriz no Plano</h1>
+            <p>A mediatriz de um segmento de reta é o conjunto de todos os pontos P à mesma distância dos extremos desse segmento.</p>
+            <p>Dados dois pontos, A(a<sub>1</sub> , a<sub>2</sub>) e B(b<sub>1</sub> , b<sub>2</sub>):
+
+            <div class="formulaportion">
+
+                <p>d(P , A) = d(P , B)</p>
+
+            </div>
+
+            <p>A equação da mediatriz do segmento de reta [AB] é:</p>
+
+            <div class="formulaportion">
+
+                <p>(x - a<sub>1</sub>)<sup>2</sup> + (y - a<sub>2</sub>)<sup>2</sup> = (x - b<sub>1</sub>)<sup>2</sup> 
+                    + (y - b<sub>2</sub>)<sup>2</sup></p>
+                
+            </div>
+            </a>
+        </div>
+
+        <div class="textportion">
+            <a id="circunferenciaplano"></a>
+            <h1>Equação da Circunferência no Plano</h1>
+            <p>Dado um ponto genérico P(x , y) e  uma circunferência de centro A(a<sub>1</sub> , a<sub>2</sub>) e raio r, 
+                a sua equação cartesiana no plano é:</p>
+            
+            <div class="formulaportion">
+
+                <p>(x - a<sub>1</sub>)<sup>2</sup> + (y - a<sub>2</sub>)<sup>2</sup> = r<sup>2</sup></p>
+            </div>
+            </a>
+        </div>
+
+        <div class="textportion">
+            <a id="circuloplano"></a>
+            <h1>Inequação do Círculo no Plano</h1>
+            <p>É uma condição necessária, mas não suficiente, ao conhecimento.</p>
+            <p>Dado um círculo de centro A(a<sub>1</sub> , a<sub>2</sub>) e raio r:</p>
+            <p>A sua região interior, incluindo a borda, pode ser representada pela equação:</p>
+
+            <div class="formulaportion">
+
+                <p>(x - a<sub>1</sub>)<sup>2</sup> + (y - a<sub>2</sub>)<sup>2</sup> &les; r<sup>2</sup></p>
+            </div>
+
+            <p>A sua região interior, excluindo a borda, pode ser representada pela equação:</p>
+
+            <div class="formulaportion">
+
+                <p>(x - a<sub>1</sub>)<sup>2</sup> + (y - a<sub>2</sub>)<sup>2</sup> &lt; r<sup>2</sup></p>
+            </div>
+
+            <p>A sua região exterior, incluindo a borda, pode ser representada pela equação:</p>
+
+            <div class="formulaportion">
+
+                <p>(x - a<sub>1</sub>)<sup>2</sup> + (y - a<sub>2</sub>)<sup>2</sup> &ges; r<sup>2</sup></p>
+            </div>
+
+            <p>A sua região exterior, excluindo a borda, pode ser representada pela equação:</p>
+
+            <div class="formulaportion">
+
+                <p>(x - a<sub>1</sub>)<sup>2</sup> + (y - a<sub>2</sub>)<sup>2</sup> &gt; r<sup>2</sup></p>
+            </div>
+            </a>
+        </div>
+
+        <div class="textportion">
+            <a id="semiplano"></a>
+            <h1>Inequação de um Semi-Plano</h1>
+            <p>Dado um plano com uma reta r, de equação reduzida y = ax + b (a,b &in; &reals;), os semi-planos são:</p>
+            <p><b>Semi-Plano superior aberto:</b></p>
+
+            <div class="formulaportion">
+
+                <p>y &gt; ax + b</p>
+            </div>
+
+            <p><b>Semi-Plano superior fechado:</b></p>
+
+            <div class="formulaportion">
+
+                <p>y &ges; ax + b</p>
+            </div>
+
+            <p><b>Semi-Plano inferior aberto:</b></p>
+
+            <div class="formulaportion">
+
+                <p>y &lt; ax + b</p>
+            </div>
+
+            <p><b>Semi-Plano inferior fechado:</b></p>
+
+            <div class="formulaportion">
+
+                <p>y &les; ax + b</p>
+            </div>
+
+            <p>Sendo que nos semi-planos abertos a própria linha não está incluída nele, mas nos fechados está.</p>
+            </a>
+        </div>
+
+        <div class="textportion">
+            <a id="vetorialplano"></a>
+            <h1>Cálculo Vetorial no Plano</h1>
+            <p>Para determinar um vetor, é necessário definir o seu sentido, a sua direção e o seu comprimento.</p>
+
+            <h2>Direção</h2>
+            <p>Pode ser horizontal, vertical, ou oblíqua.</p>
+
+            <h2>Sentido</h2>
+            <p>Se a direção for horizontal, pode ser da esquerda para a direita, ou da direita para a esquerda.</p>
+            <p>Se a direção for vertical, pode ser de baixo para cima, ou de cima para baixo.</p>
+            <p>Se a direção for oblíqua, pode ser de baixo para cima, ou de cima para baixo.</p>
+
+            <h2>Segmentos de Reta Orientados Equipolentes</h2>
+            <p>São segmentos de reta orientados com o mesmo comprimento, sentido e direção.</p>
+            <p>Definem o mesmo vetor, sendo este um segmento de reta orientado caracterizado pelo seu comprimento, 
+                o seu sentido e a sua direção.</p>
+
+            <h2>Vetores Simétricos</h2>
+            <p>São vetores com o mesmo comprimento, a mesma direção e sentidos contrários.</p>
+
+            <h2>Vetor Nulo</h2>
+            <p>É um vetor associado à transformação de um ponto nele próprio, ou seja, a transformação identidade.</p>
+            <p>Tem comprimento nulo e direção e sentido indeterminados.</p>
+
+            <h2>Vetores Colineares</h2>
+            <p>São vetores com a mesma direção, podendo ser representados sobre a mesma reta.</p>
+            <p>O vetor nulo é colinear com qualquer outro vetor.</p>
+            <p>Dois vetores não nulos <b><i>u</i></b> e <b><i>v</i></b> são colineares se e só se &Exists;&lambda; &in; &reals;: 
+                <b><i>u</i></b> = &lambda;<b><i>v</i></b></p>
+
+            <h2>Norma de um Vetor</h2>
+            <p>É o comprimento de um vetor.</p>
+
+            <h2>Escalar de um Vetor</h2>
+            <p>É o número real que antecede um vetor, multiplicando por ele o comprimento do vetor, mas mantendo a sua direção e sentido.</p>
+
+            <h2>Coordenadas de um Vetor no Plano</h2>
+            <p>Fixada uma unidade de comprimento, sendo X(1 , 0), Y(0 , 1), <b><i>e<sub>1</sub></i></b> = <b><i>OX</i></b> e 
+                <b><i>e<sub>2</sub></i></b> = <b><i>OY</i></b>, para qualquer vetor <b><i>u</i></b> existe um par ordenado 
+                (u<sub>1</sub> , u<sub>2</sub>), tal que <b><i>u</i></b> = u<sub>1</sub><b><i>e<sub>1</sub></i></b> + 
+                u<sub>2</sub><b><i>e<sub>2</sub></i></b>, sendo o par ordenado as coordenadas do vetor <b><i>u</i></b>.</p>
+            
+            <h2>Operações com Vetores no Plano</h2>
+            <p>Dados 2 vetores <b><i>u</i></b>(u<sub>1</sub> , u<sub>2</sub>) e <b><i>v</i></b>(v<sub>1</sub> , v<sub>2</sub>) 
+                e um escalar k &in; &reals;, tem-se:</p>
+
+            <div class="formulaportion">
+
+                <p><b><i>u</i></b> + <b><i>v</i></b> = (u<sub>1</sub> + v<sub>1</sub> , u<sub>2</sub> + v<sub>2</sub>)</p>
+            </div>
+
+            <div class="formulaportion">
+
+                <p><b><i>u</i></b> - <b><i>v</i></b> = (u<sub>1</sub> - v<sub>1</sub> , u<sub>2</sub> - v<sub>2</sub>)</p>
+            </div>
+
+            <div class="formulaportion">
+
+                <p>k<b><i>u</i></b> = (ku<sub>1</sub> , ku<sub>2</sub>)</p>
+            </div>
+
+            <h2>Vetor Posição de um Ponto</h2>
+            <p>Dado um ponto P qualquer, o vetor <b><i>OP</i></b> tem as mesmas coordenadas de P, sendo o seu vetor posição.</p>
+                   
+            </a>
+        </div>
+    </main>
+
+    <footer>
+
+        <h5>Website destinado a uso por parte dos alunos do 11º A.</h5>
+        <h5>Idealizado e executado por Bernardo Martinho Mendes 11ºA Nº 1.</h5>
+
+    </footer>
+    
+    <script type="module" src="../../../index.js"></script>    
+</body>
+</html>

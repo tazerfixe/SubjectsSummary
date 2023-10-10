@@ -41,11 +41,18 @@
                         <a href="#referencialplano">Referencial Cartesiano no Plano</a>
                         <a href="#distanciapontosplano">Distância entre dois Pontos no Plano</a>
                         <a href="#pontomedioplano">Ponto Médio no Plano</a>
-                        <a href="#mediatrizplano">Mediatriz no Plano</a>
+                        <a href="#mediatriz">Mediatriz</a>
                         <a href="#circunferenciaplano">Equação da Circunferência no Plano</a>
                         <a href="#circuloplano">Inequação do Círculo no Plano</a>
                         <a href="#semiplano">Inequação de um Semi-Plano</a>
                         <a href="#vetorialplano">Cálculo Vetorial no Plano</a>
+                        <a href="#referencialespaço">Referencial Cartesiano no Espaço</a>
+                        <a href="#distanciapontosespaço">Distância entre dois Pontos no Espaço</a>
+                        <a href="#pontomedioespaço">Ponto Médio no Espaço</a>
+                        <a href="#planomediador">Plano Mediador</a>
+                        <a href="#superficieesferica">Equação da Superfície Esférica</a>
+                        <a href="#esfera">Inequação da Esfera</a>
+                        <a href="#vetorialespaço">Cálculo Vetorial no Espaço</a>
 
                     </div>
                 </div>
@@ -58,7 +65,7 @@
         <div class="textportion">
             <a id="referencialplano"></a>
             <h1>Referencial Cartesiano no Plano</h1>
-            <p>Num referencial cartesiano, os eixos das <b>abcissas</b> e das <b>ordenadas</b> são designados <b>Ox</b> e <b>Oy</b>, 
+            <p>Num referencial cartesiano no plano, os eixos das <b>abcissas</b> e das <b>ordenadas</b> são designados <b>Ox</b> e <b>Oy</b>, 
                 respetivamente.</p>
             <p>O ponto de interceção destes dois eixos é a <b>origem do referencial</b>.</p>
 
@@ -68,7 +75,7 @@
 
             </div>
 
-            <p>Um <b>referencial ortonormado</b>, divide o plano em quatro quadrantes(Q): o 1ºQ, o 2ºQ, o 3ºQ e o 4ºQ.</p>
+            <p>Um <b>referencial ortonormado no plano</b>, divide o plano em quatro quadrantes(Q): o 1ºQ, o 2ºQ, o 3ºQ e o 4ºQ.</p>
 
             <div class="imageportion">
 
@@ -141,8 +148,8 @@
         </div>
 
         <div class="textportion">
-            <a id="mediatrizplano"></a>
-            <h1>Mediatriz no Plano</h1>
+            <a id="mediatriz"></a>
+            <h1>Mediatriz</h1>
             <p>A mediatriz de um segmento de reta é o conjunto de todos os pontos P à mesma distância dos extremos desse segmento.</p>
             <p>Dados dois pontos, A(a<sub>1</sub> , a<sub>2</sub>) e B(b<sub>1</sub> , b<sub>2</sub>):
 
@@ -179,7 +186,6 @@
         <div class="textportion">
             <a id="circuloplano"></a>
             <h1>Inequação do Círculo no Plano</h1>
-            <p>É uma condição necessária, mas não suficiente, ao conhecimento.</p>
             <p>Dado um círculo de centro A(a<sub>1</sub> , a<sub>2</sub>) e raio r:</p>
             <p>A sua região interior, incluindo a borda, pode ser representada pela equação:</p>
 
@@ -280,6 +286,12 @@
 
             <h2>Norma de um Vetor</h2>
             <p>É o comprimento de um vetor.</p>
+            <p>Dado um vetor <b><i>u</i></b>, <b><i>u</i></b>(u<sub>1</sub> , u<sub>2</sub>), tem-se que:</p>
+
+            <div class="formulaportion">
+
+                <p>||<b><i>u</i></b>|| = &radic;(u<sub>1</sub><sup>2</sup> + u<sub>2</sub><sup>2</sup>)</p>
+            </div>
 
             <h2>Escalar de um Vetor</h2>
             <p>É o número real que antecede um vetor, multiplicando por ele o comprimento do vetor, mas mantendo a sua direção e sentido.</p>
@@ -297,21 +309,248 @@
             <div class="formulaportion">
 
                 <p><b><i>u</i></b> + <b><i>v</i></b> = (u<sub>1</sub> + v<sub>1</sub> , u<sub>2</sub> + v<sub>2</sub>)</p>
-            </div>
-
-            <div class="formulaportion">
-
                 <p><b><i>u</i></b> - <b><i>v</i></b> = (u<sub>1</sub> - v<sub>1</sub> , u<sub>2</sub> - v<sub>2</sub>)</p>
-            </div>
-
-            <div class="formulaportion">
-
                 <p>k<b><i>u</i></b> = (ku<sub>1</sub> , ku<sub>2</sub>)</p>
+
             </div>
 
             <h2>Vetor Posição de um Ponto</h2>
             <p>Dado um ponto P qualquer, o vetor <b><i>OP</i></b> tem as mesmas coordenadas de P, sendo o seu vetor posição.</p>
+
+            <h2>Vetor como Diferença entre dois Pontos</h2>
+            <p>Dados dois pontos A e B:</p>
+
+            <div class="formulaportion">
+
+                <p>A + <b><i>AB</i></b> = B</p>
+                <p><b><i>AB</i></b> = B - A</p>
+
+            </div>
+
+            <h2>Vetor Diretor de uma Reta</h2>
+            <p>Um vetor diretor de uma reta é aquele que define a direção da reta.</p>
+            <p>Retas paralelas têm a mesma direção, e ,consequentemente, têm vetores diretores iguais ou colineares.</p>
+            <p>No caso de a reta ser vertical, o seu vetor diretor terá coordenadas da forma:</p>
+
+            <div class="formulaportion">
+
+                <p>(0 , k), k &in; &reals;\{0}</p>
+
+            </div>
+            <p>No caso de a reta ser horizontal, o seu vetor diretor terá coordenadas da forma:</p>
                    
+            <div class="formulaportion">
+
+                <p>(k , 0), k &in; &reals;\{0}</p>
+                
+            </div>
+
+            <h2>Declive de uma Reta</h2>
+            <p>Dada uma reta de declive a, sendo o seu vetor diretor <b><i>u</i></b>(u<sub>1</sub> , u<sub>2</sub>), então:</p>
+
+            <div class="formulaportion">
+
+                <p>u<sub>2</sub> &div; u<sub>1</sub> = a</p>
+                
+            </div>
+
+            <p>Dados dois pontos, A(a<sub>1</sub> , a<sub>2</sub>) e B(b<sub>1</sub> , b<sub>2</sub>), então:</p>
+
+            <div class="formulaportion">
+
+                <p>(b<sub>2</sub> - a<sub>2</sub>) &div; (b<sub>1</sub> - a<sub>1</sub>) = u<sub>2</sub> &div; u<sub>1</sub> = a</p>
+                
+            </div>
+
+            <h2>Paralelismo de Retas</h2>
+            <p>Duas retas não verticais são paralelas se, e só se, os seus vetores diretores forem colineares, ou seja, 
+                se tiverem o mesmo declive.</p>
+
+            <h2>Equação Vetorial da Reta</h2>
+            <p>Dado um ponto A de uma reta r e um vetor diretor dessa reta <b><i>u</i></b>, se P for um ponto dessa reta, 
+                pode ser representado na forma:</p>
+
+            <div class="formulaportion">
+
+                <p>P = A + k<b><i>u</i></b>, k &in; &reals;</p>
+                    
+            </div>
+
+            <p>Sendo essa a equação vetorial da reta r, a qual pode também ser representada na forma:</p>
+
+            <div class="formulaportion">
+
+                <p>(x , y) = (a<sub>1</sub> , a<sub>2</sub>) + k(u<sub>1</sub> , u<sub>2</sub>), k &in; &reals;</p>
+                    
+            </div>
+
+            <h2>Equação Paramétrica da Reta</h2>
+            <p>Dado um ponto A(a<sub>1</sub> , a<sub>2</sub>) de uma reta r e um vetor diretor dessa reta <b><i>u</i></b>(u<sub>1</sub> , 
+                u<sub>2</sub>), P(x , y) é um ponto dessa reta se existir um número k &in; &reals; tal que:</p>
+
+            <div class="formulaportion">
+
+                <p>x = a<sub>1</sub> + ku<sub>1</sub> &and; y = a<sub>2</sub> + ku<sub>2</sub></p>
+                        
+            </div>
+
+            </a>
+        </div>
+
+        <div class="textportion">
+            <a id="referencialespaço"></a>
+            <h1>Referencial Cartesiano no Espaço</h1>
+            <p>Num referencial cartesiano no espaço, os eixos das <b>abcissas</b>, das <b>ordenadas</b> e das <b>cotas</b> 
+                são designados <b>Ox</b>, <b>Oy</b> e <b>Oz</b>, respetivamente.</p>
+            <p>O ponto de interceção destes três eixos é a <b>origem do referencial</b>.</p>
+
+            <div class="imageportion">
+
+                <img src="Images/referencialespaço.png">
+
+            </div>
+
+            <p>Um <b>referencial ortonormado no espaço</b>, divide o plano em oito octantes(Oct): 
+                o 1ºOct, o 2ºOct, o 3ºOct, o 4ºOct, o 5ºOct, o 6ºOct, o 7ºOct e o 8ºOct.</p>
+
+            <div class="imageportion">
+
+                <img src="Images/referencialoctantes.png">
+
+            </div>
+
+            <p>Qualquer ponto do eixo Ox tem coordenadas da forma (x , 0 , 0).</p>       
+            <p>Qualquer ponto do eixo Oy tem coordenadas da forma (0 , y , 0).</p>     
+            <p>Qualquer ponto do eixo Oy tem coordenadas da forma (0 , 0 , z).</p>   
+            <p>A origem do referencial tem de coordenadas (0 , 0 , 0).</p>  
+            
+            <h2>Planos Coordenados</h2>
+            <p>São os três planos determinados por cada par de eixos coordenados.</p>
+            
+            <div class="listportion">
+
+                <h3>Representam-se por:</h3>
+                <ul>
+                    <li>xOy se contiver os eixos Ox e Oy.</li>
+                    <li>xOz se contiver os eixos Ox e Oz.</li>
+                    <li>yOz se contiver os eixos Oy e Oz.</li>
+                </ul>
+
+            </div>
+            </a>
+        </div>
+
+        <div class="textportion">
+            <a id="distanciapontosespaço"></a>
+            <h1>Distância entre dois Pontos no Espaço</h1>
+            <p>Dados dois pontos A(a<sub>1</sub> , a<sub>2</sub> , a<sub>3</sub>) e B(b<sub>1</sub> , b<sub>2</sub> , b<sub>3</sub>) no espaço, 
+                a distância entre eles é dada por:</p>
+
+            <div class="formulaportion">
+
+                <p>d(A,B) = &radic;((b<sub>1</sub> - a<sub>1</sub>)<sup>2</sup> + (b<sub>2</sub> - a<sub>2</sub>)<sup>2</sup> 
+                    + (b<sub>3</sub> - a<sub>3</sub>)<sup>2</sup>)</p>
+
+            </div>
+
+            </a>
+        </div>
+
+        <div class="textportion">
+            <a id="pontomedioespaço"></a>
+            <h1>Ponto Médio no Espaço</h1>
+            <p>No espaço, o ponto médio de um segmento de reta é aquele no meio do segmento de reta formado por outros dois pontos.</p>
+            <p>Dados dois pontos A(a<sub>1</sub> , a<sub>2</sub> , a<sub>3</sub>) e B(b<sub>1</sub> , b<sub>2</sub> , b<sub>3</sub>) no espaço, 
+                o ponto médio do segmento de reta [AB] tem de coordenadas:</p>
+
+            <div class="formulaportion">
+
+                <p>M( (a<sub>1</sub> + b<sub>1</sub>) &div; 2 , (a<sub>2</sub> + b<sub>2</sub>) &div; 2 , 
+                    (a<sub>3</sub> + b<sub>3</sub>) &div; 2 )</p>
+                    
+            </div>
+
+            </a>
+        </div>
+
+        <div class="textportion">
+            <a id="planomediador"></a>
+            <h1>Plano Mediador</h1>
+            <p>Dados dois pontos A(a<sub>1</sub> , a<sub>2</sub> , a<sub>3</sub>) e B(b<sub>1</sub> , b<sub>2</sub> , b<sub>3</sub>) no espaço, 
+                o plano mediador do segmento de reta [A,B] é o conjunto de pontos P(x , y , z), no espaço, que estão à mesma distância tanto 
+                de A quanto de B. </p>
+            <p>A equação do plano mediador do segmento de reta [A,B] dá-se por: </p>
+
+            <div class="formulaportion">
+
+                <p>(x - a<sub>1</sub>)<sup>2</sup> + (y - a<sub>2</sub>)<sup>2</sup> + (z - a<sub>3</sub>)<sup>2</sup> = 
+                    (x - b<sub>1</sub>)<sup>2</sup> + (y - b<sub>2</sub>)<sup>2</sup> + (z - b<sub>3</sub>)<sup>2</sup></p>
+                    
+            </div>
+
+            </a>
+        </div>
+
+        <div class="textportion">
+            <a id="superficieesferica"></a>
+            <h1>Equação da Superfície Esférica</h1>
+            <p>Dado um ponto A(a<sub>1</sub> , a<sub>2</sub> , a<sub>3</sub>) e um raio r, 
+                a equação da superfície de esfera de centro em A e raio r dá-se por:</p>
+
+            <div class="formulaportion">
+
+                <p>(x - a<sub>1</sub>)<sup>2</sup> + (y - a<sub>2</sub>)<sup>2</sup> + (z - a<sub>3</sub>)<sup>2</sup> = r<sup>2</sup></p>
+                    
+            </div>
+
+            </a>
+        </div>
+
+        <div class="textportion">
+            <a id="esfera"></a>
+            <h1>Inequação da Esfera</h1>
+            <p>Dada uma esfera de centro A(a<sub>1</sub> , a<sub>2</sub> , a<sub>3</sub>) e raio r:</p>
+            <p>A sua região interior, incluindo a borda, pode ser representada pela equação:</p>
+
+            <div class="formulaportion">
+
+                <p>(x - a<sub>1</sub>)<sup>2</sup> + (y - a<sub>2</sub>)<sup>2</sup> + (z - a<sub>3</sub>)<sup>2</sup> &les; r<sup>2</sup></p>
+                    
+            </div>
+
+            <p>A sua região interior, excluindo a borda, pode ser representada pela equação:</p>
+
+            <div class="formulaportion">
+
+                <p>(x - a<sub>1</sub>)<sup>2</sup> + (y - a<sub>2</sub>)<sup>2</sup> + (z - a<sub>3</sub>)<sup>2</sup> &lt; r<sup>2</sup></p>
+                    
+            </div>
+
+            <p>A sua região exterior, incluindo a borda, pode ser representada pela equação:</p>
+
+            <div class="formulaportion">
+
+                <p>(x - a<sub>1</sub>)<sup>2</sup> + (y - a<sub>2</sub>)<sup>2</sup> + (z - a<sub>3</sub>)<sup>2</sup> &ges; r<sup>2</sup></p>
+                    
+            </div>
+
+            <p>A sua região exterior, excluindo a borda, pode ser representada pela equação:</p>
+
+            <div class="formulaportion">
+
+                <p>(x - a<sub>1</sub>)<sup>2</sup> + (y - a<sub>2</sub>)<sup>2</sup> + (z - a<sub>3</sub>)<sup>2</sup> &gt; r<sup>2</sup></p>
+                    
+            </div>
+
+            <p><u><b>Nota:</b></u> A interceção entre uma esfera e um plano é um círculo ou um ponto.</p>
+
+            </a>
+        </div>
+
+        <div class="textportion">
+            <a id="vetorialespaço"></a>
+            <h1>Cálculo Vetorial no Espaço</h1>
+            <p>Todas as propriedades dos vetores no plano são válidas no espaço, mas com coordenadas da forma (x , y , z):</p>
             </a>
         </div>
     </main>

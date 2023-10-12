@@ -1,15 +1,19 @@
+*{
+    box-sizing: border-box;
+}
+
+
 .navbar{
-    width: 100%;
+    max-width: 100%;
 }
 .navbar ul{
     overflow: hidden;
     margin: 0px;
     padding: 0px;
-    display: block;
+    display: flex;
     list-style-type: none;
     background-color: rgb(60, 60, 60);
-    
-    
+    max-width: 100%;
 }
 .navbar #navbarElement{
     text-decoration: none;
@@ -17,14 +21,14 @@
     background-color: white;
     border: 1px solid;
     font-weight: bold;
-    font-size: 20px;
+    font-size: calc(0.25rem + 1vw);
     text-align: center;
-    padding: 15px;
+    padding: calc(0.25rem + 1vw);
     display: block;
+    height: 100%;
 
 }
-.navbar li{
-    float: left;
+.navbar li{   
 }
 .navbar #navbarElement:hover{
     background-color: darkgray;
@@ -34,29 +38,29 @@
 .dropdown{
     padding: 0px;
     margin: 0px;
-    display: inline-block;
+    display: block;
+   
     
 }
 .dropdown h2{
     margin: 0px;
     background-color: white;
     color: black;
-    font-size: 20px;
-    height: 100%;
+    font-size: calc(0.25rem + 1vw);;
     display: inline-block;
-    width: fit-content;
-    height: fit-content;
+    
+    
 }
 .dropdown a{
-    font-size: 25px;
+    font-size: calc(0.25rem + 1vw);
     background-color: hsl(0, 2%, 91%);
     text-align: left;
-    padding: 10px 15px;
+    padding: calc(0.25rem + 0.8vw) calc(0.25rem + 1vw);
     margin: 0px;
     text-decoration: none;
     color: black;
     display: block;
-    min-width: 215px;
+    width: 100%;
     
     
 }
@@ -64,14 +68,16 @@
     position: absolute;
     box-shadow: 2px 2px 5px black;
     display: none;
-    z-index: 1;
-    max-height: 400px;
-    overflow: scroll;   
+    max-height: 50vh;
+    overflow: scroll;
+    
+    
 
 }
 
 .dropdown:hover .dropdowncontent{
-   display: block;
+   display: flex;
+   flex-direction: column;   
 }
 .dropdown:hover{
     background-color: gray;
@@ -81,19 +87,18 @@
 }
 
 .sidedrop{
-
 }
 .sidedrop a{
     display: inline-block;
-
 }
 .sidedrop .sidedropcontent{
     display: none;
-    position: absolute; 
+    position: relative; 
+    width: 100%;
 
 }
 .sidedrop:hover .sidedropcontent{
-    display: inline-block;
+    display: block;
 
 }
 .sidedrop .sidedropcontent a{
@@ -112,36 +117,4 @@
     position: fixed;
     top: 0px;
     width: 100%;
-}
-
-@media screen and (max-width: 660px){
-    
-    .navbar #navbarElement{
-        font-size: 15px;
-    }
-
-    .dropdown a{
-        font-size: 20px;
-        min-width: 100px; 
-    }
-    .dropdown .dropdowncontent{
-        max-height: 300px;  
-    }
-    
-}
-
-@media screen and (max-width: 380px){
-
-    .navbar #navbarElement{
-        font-size: 10px;    
-    }
-
-    .dropdown a{
-        font-size: 15px;
-        min-width: 50px;  
-    }
-    .dropdown .dropdowncontent{
-        max-height: 200px; 
-    }
-
 }

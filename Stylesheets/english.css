@@ -8,10 +8,9 @@ header{
 
     background-color: rgb(78, 112, 78);
 
-    background-image: url(../images/MonumentoGrego.webp);
+    background-image: url(../images/backgroundinglês.png);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: 0px -400px;
     background-attachment: fixed;
 
 }
@@ -19,6 +18,26 @@ header h1{
 
     background-color: white;
 
+}
+
+
+.themeslist ul h1{
+    
+    background-color: red;
+}
+.themeslist ul h1:hover{
+    background-color: tomato;
+}
+.themeslist li{
+    background-color: rgb(37, 37, 180);
+}
+.themeslist li:hover{
+    background-color: rgb(0, 0, 208);
+}
+
+.textportion{
+    
+    background-color: tomato;
 }
 
 
@@ -30,18 +49,3 @@ footer{
 }
 
 
-@media screen and (max-width: 600px){
-
-    
-    header{
-        background-position: 0px 0px;
-    }
-}
-
-@media screen and (max-width: 400px){
-
-    
-    header{
-        background-position: 0px -200px;
-    }
-}

@@ -60,9 +60,7 @@
     text-decoration: none;
     color: black;
     display: block;
-    width: 100%;
-    
-    
+    width: 100%;    
 }
 .dropdown .dropdowncontent{
     position: absolute;
@@ -89,7 +87,7 @@
 .sidedrop{
 }
 .sidedrop a{
-    display: inline-block;
+    display: block;
 }
 .sidedrop .sidedropcontent{
     display: none;

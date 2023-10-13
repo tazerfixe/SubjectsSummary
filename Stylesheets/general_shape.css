@@ -85,7 +85,7 @@ main{
     border-radius: 20px;
 }
 .textportion h1{
-    font-size: calc(1rem + 3vw);
+    font-size: calc(1rem + 2.5vw);
     max-width: 95%;
     text-align: center;
     text-decoration: underline;
@@ -108,6 +108,9 @@ main{
     margin-bottom: 20px;
     margin-top: 0px;
     align-self: flex-start;
+}
+.textportion a{
+    width: 100%;
 }
 
 .imageportion{

@@ -2,9 +2,6 @@
     box-sizing: border-box;
 }
 
-html{
-}
-
 
 body{
     margin: 0px;
@@ -62,9 +59,6 @@ main{
     text-align: center;
     width: 100%;
     border-bottom: 1px solid;
-}
-.themeslist li a{
-   
 }
 .themeslist ul a{
     text-decoration: none;
@@ -189,6 +183,26 @@ main{
    margin-bottom: 5px;
 }
 
+.tableportion{
+    font-size: calc(1rem + 0.5vw);
+    background-color:rgb(0, 203, 203);
+    padding: 0px;
+    max-width: 70%;
+    
+}
+.tableportion p{
+    font-size: calc(1rem + 0.5vw);
+    margin: 0px;
+    margin-bottom: 5px;
+}
+.tableportion tr{
+    margin: 0px;
+}
+.tableportion td:not(.tablespread){
+    border: 1px solid;
+    margin: 0px;
+}
+
 
 footer{
     height: 100px;
@@ -207,70 +221,3 @@ footer h5{
     font-size: calc(0.5rem + 0.5vw);
 
 }
-
-/*@media screen and (max-width: 660px){
-    
-    header h1{
-        font-size: 40px;
-        padding: 5px;
-    }
-
-
-    .themeslist ul h1{
-        font-size: 40px;
-    }
-    .themeslist li{
-        font-size: 25px;
-    }
-
-    .imageportion img{
-    
-        max-height: 300px;
-        max-width: 300px;
-        min-height: 300px;
-        min-width: 300px;
-    }
-
-    .textportion h1{
-        font-size: 40px;
-    }
-    .textportion h2{
-        font-size: 30px;
-    }
-    .textportion p{
-        font-size: 20px;
-    }
-}
-
-@media screen and (max-width: 380px){
-
-    header h1{
-        font-size: 30px;
-        padding: 5px;
-    }
-
-    .themeslist ul h1{
-        font-size: 30px;
-    }
-    .themeslist li{
-        font-size: 15px;
-    }
-
-    .imageportion img{
-    
-        max-height: 250px;
-        max-width: 250px;
-        min-height: 250px;
-        min-width: 250px;
-    }
-
-    .textportion h1{
-        font-size: 25px;
-    }
-    .textportion h2{
-        font-size: 20px;
-    }
-    .textportion p{
-        font-size: 15px;
-    }
-}/*

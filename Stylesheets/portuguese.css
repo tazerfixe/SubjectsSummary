@@ -8,7 +8,7 @@ header{
 
     background-color: rgb(78, 112, 78);
 
-    background-image: url(../images/MonumentoGrego.webp);
+    background-image: url(../images/FundoPortugues.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -21,9 +21,27 @@ header h1{
 }
 
 
+.themeslist ul h1{
+    
+    background-color: tomato;
+}
+.themeslist ul h1:hover{
+    background-color: rgb(250, 118, 95);
+}
+.themeslist li{
+    background-color: rgb(193, 225, 193);
+}
+.themeslist li:hover{
+    background-color: rgb(205, 214, 210);
+}
+
+.textportion{
+    
+    background-color: rgb(193, 225, 193);
+}
+
+
 footer{
- 
+
     background-color: red;
-
-
 }
